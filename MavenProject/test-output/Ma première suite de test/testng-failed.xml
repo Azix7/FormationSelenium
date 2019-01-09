@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Ma première suite de test]" parallel="tests">
+  <test thread-count="5" name="Mon premier test(failed)" parallel="tests">
+    <parameter name="browser" value="firefox"/>
+    <classes>
+      <class name="proBook.NewTest">
+        <methods>
+          <include name="afterMethod"/>
+          <include name="test"/>
+          <include name="beforeMethod"/>
+        </methods>
+      </class> <!-- proBook.NewTest -->
+    </classes>
+  </test> <!-- Mon premier test(failed) -->
+  <test thread-count="5" name="Test avec Chrome(failed)" parallel="tests">
+    <parameter name="browser" value="chrome"/>
+    <classes>
+      <class name="proBook.NewTest">
+        <methods>
+          <include name="afterMethod"/>
+          <include name="test"/>
+          <include name="beforeMethod"/>
+        </methods>
+      </class> <!-- proBook.NewTest -->
+    </classes>
+  </test> <!-- Test avec Chrome(failed) -->
+</suite> <!-- Failed suite [Ma première suite de test] -->

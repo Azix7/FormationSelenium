@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuite tests="1" failures="1" name="proBook.NewTest" time="0.77" errors="0" skipped="0">
+  <properties>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="sun.boot.library.path" value="/home/progideo/Desktop/jdk1.8.0_191/jre/lib/amd64"/>
+    <property name="java.vm.version" value="25.191-b12"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="maven.multiModuleProjectDirectory" value="/home/progideo/eclipse-workspace/MavenProject"/>
+    <property name="java.vendor.url" value="http://java.oracle.com/"/>
+    <property name="path.separator" value=":"/>
+    <property name="guice.disable.misplaced.annotation.check" value="true"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="file.encoding.pkg" value="sun.io"/>
+    <property name="user.country" value="FR"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="sun.os.patch.level" value="unknown"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="user.dir" value="/home/progideo/eclipse-workspace/MavenProject"/>
+    <property name="java.runtime.version" value="1.8.0_191-b12"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.X11GraphicsEnvironment"/>
+    <property name="java.endorsed.dirs" value="/home/progideo/Desktop/jdk1.8.0_191/jre/lib/endorsed"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.io.tmpdir" value="/tmp"/>
+    <property name="line.separator" value="
+"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="os.name" value="Linux"/>
+    <property name="classworlds.conf" value="/home/progideo/eclipse-workspace/.metadata/.plugins/org.eclipse.m2e.launching/launches/m2conf6790664723858751980.tmp"/>
+    <property name="sun.jnu.encoding" value="UTF-8"/>
+    <property name="java.library.path" value="/usr/java/packages/lib/amd64:/usr/lib64:/lib64:/lib:/usr/lib"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.class.version" value="52.0"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="os.version" value="4.18.0-13-generic"/>
+    <property name="user.home" value="/home/progideo"/>
+    <property name="user.timezone" value="Africa/Casablanca"/>
+    <property name="java.awt.printerjob" value="sun.print.PSPrinterJob"/>
+    <property name="file.encoding" value="UTF-8"/>
+    <property name="java.specification.version" value="1.8"/>
+    <property name="user.name" value="progideo"/>
+    <property name="java.class.path" value="/home/progideo/Desktop/eclipse/plugins/org.eclipse.m2e.maven.runtime_1.10.0.20181127-2120/jars/plexus-classworlds-2.5.2.jar"/>
+    <property name="java.vm.specification.version" value="1.8"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="java.home" value="/home/progideo/Desktop/jdk1.8.0_191/jre"/>
+    <property name="sun.java.command" value="org.codehaus.plexus.classworlds.launcher.Launcher -B test"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="user.language" value="fr"/>
+    <property name="awt.toolkit" value="sun.awt.X11.XToolkit"/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.version" value="1.8.0_191"/>
+    <property name="java.ext.dirs" value="/home/progideo/Desktop/jdk1.8.0_191/jre/lib/ext:/usr/java/packages/lib/ext"/>
+    <property name="securerandom.source" value="file:/dev/./urandom"/>
+    <property name="sun.boot.class.path" value="/home/progideo/Desktop/jdk1.8.0_191/jre/lib/resources.jar:/home/progideo/Desktop/jdk1.8.0_191/jre/lib/rt.jar:/home/progideo/Desktop/jdk1.8.0_191/jre/lib/sunrsasign.jar:/home/progideo/Desktop/jdk1.8.0_191/jre/lib/jsse.jar:/home/progideo/Desktop/jdk1.8.0_191/jre/lib/jce.jar:/home/progideo/Desktop/jdk1.8.0_191/jre/lib/charsets.jar:/home/progideo/Desktop/jdk1.8.0_191/jre/lib/jfr.jar:/home/progideo/Desktop/jdk1.8.0_191/jre/classes"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="maven.home" value="/home/progideo/eclipse-workspace/MavenProject/EMBEDDED"/>
+    <property name="file.separator" value="/"/>
+    <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="sun.cpu.isalist" value=""/>
+  </properties>
+  <testcase classname="proBook.NewTest" name="test" time="0.77">
+    <failure message="expected [Fil d&apos;actualités - ProBook] but found [Dashboard - ProBook]" type="java.lang.AssertionError">java.lang.AssertionError: expected [Fil d&apos;actualités - ProBook] but found [Dashboard - ProBook]
+	at org.testng.Assert.fail(Assert.java:96)
+	at org.testng.Assert.failNotEquals(Assert.java:776)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:137)
+	at org.testng.Assert.assertEquals(Assert.java:118)
+	at org.testng.Assert.assertEquals(Assert.java:453)
+	at org.testng.Assert.assertEquals(Assert.java:463)
+	at proBook.NewTest.test(NewTest.java:42)
+</failure>
+    <system-out>Configuring TestNG with: org.apache.maven.surefire.testng.conf.TestNG652Configurator@5eb5c224
+</system-out>
+    <system-err>1546962803318	mozrunner::runner	INFO	Running command: &quot;/usr/lib/firefox/firefox&quot; &quot;-marionette&quot; &quot;-foreground&quot; &quot;-no-remote&quot; &quot;-profile&quot; &quot;/tmp/rust_mozprofile.uIj9tMdKuxxB&quot;
+1546962803879	addons.webextension.screenshots@mozilla.org	WARN	Loading extension &apos;screenshots@mozilla.org&apos;: Reading manifest: Invalid host permission: resource://pdf.js/
+1546962803884	addons.webextension.screenshots@mozilla.org	WARN	Loading extension &apos;screenshots@mozilla.org&apos;: Reading manifest: Invalid host permission: about:reader*
+1546962806086	Marionette	INFO	Listening on port 45703
+1546962806166	Marionette	WARN	TLS certificate errors will be ignored for this session
+janv. 08, 2019 3:53:26 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFOS: Detected dialect: W3C
+</system-err>
+  </testcase>
+</testsuite>
